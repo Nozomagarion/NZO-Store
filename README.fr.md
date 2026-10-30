@@ -18,7 +18,7 @@ NZO Store est une petite application qui donne à **EffectCraft** un magasin de 
 
 - **Gratuit.** Tous les plugins du store sont gratuits (licence MIT).
 - **Sûr.** Chaque téléchargement est vérifié avec une empreinte SHA-256 avant l'installation. Détails dans [Sécurité](#sécurité).
-- **Simple.** Windows et Mac. Pas de compte, pas d'inscription.
+- **Simple.** Windows, Mac et Linux. Pas de compte, pas d'inscription.
 - **Respectueux.** Il ne modifie jamais EffectCraft. Il copie seulement les fichiers des plugins dans les dossiers de plugins d'EffectCraft, là où tu les mettrais à la main.
 
 <p align="center"><img src="docs/images/store-dark.png" alt="Le catalogue NZO Store en mode sombre" width="900"></p>
@@ -33,6 +33,7 @@ NZO Store est une petite application qui donne à **EffectCraft** un magasin de 
 | Windows | **NZO-Store-Windows.zip** |
 | Mac avec puce Apple (M1, M2, M3, M4…) | **NZO-Store-Mac-Apple-Silicon.zip** |
 | Ancien Mac avec puce Intel | **NZO-Store-Mac-Intel.zip** |
+| Linux (64 bits, x86) | **NZO-Store-Linux.zip** |
 
 Tout est sur la [**page Releases**](../../releases/latest) (regarde *Assets* en bas de la dernière version).
 
@@ -55,6 +56,12 @@ Tout est sur la [**page Releases**](../../releases/latest) (regarde *Assets* en 
 3. Va dans **Réglages Système ▸ Confidentialité et sécurité**, descends tout en bas et clique sur **Ouvrir quand même** à côté de *NZO Store*. Confirme avec ton mot de passe. Tu ne le fais qu'une fois.
 
 > ⚠️ **Attention, Mac :** l'application n'est pas signée avec un compte développeur Apple payant (environ 99 $ par an), donc macOS la bloque la première fois. Ce n'est pas un virus, on n'a juste pas payé Apple. Sur un macOS plus ancien, un clic droit sur l'app puis **Ouvrir** suffit.
+
+### Linux
+
+1. Télécharge **NZO-Store-Linux.zip** et décompresse-le.
+2. Lance `./install.sh` depuis ce dossier pour ajouter **NZO Store** au menu des applications (ou ouvre directement le fichier **NZO Store**).
+3. Le store s’ouvre dans ton navigateur.
 
 Ces étapes sont toujours dans l'app, sous **Installation**.
 

@@ -18,7 +18,7 @@ NZO Store is a small desktop app that gives **EffectCraft** a plugin store, a bi
 
 - **Free.** Every plugin in the store is free (MIT licence).
 - **Safe.** Every download is checked against a SHA-256 fingerprint before anything is installed. More in [Security](#security).
-- **Simple.** Windows and Mac. No account, no sign-up.
+- **Simple.** Windows, Mac and Linux. No account, no sign-up.
 - **Respectful.** It never modifies EffectCraft itself. It only copies plugin files into EffectCraft's own plugin folders, exactly where you would put them by hand.
 
 <p align="center"><img src="docs/images/store-dark.png" alt="The NZO Store catalogue in dark mode" width="900"></p>
@@ -35,6 +35,7 @@ NZO Store is a small desktop app that gives **EffectCraft** a plugin store, a bi
 | Windows | **NZO-Store-Windows.zip** |
 | Mac with an Apple chip (M1, M2, M3, M4…) | **NZO-Store-Mac-Apple-Silicon.zip** |
 | Older Mac with an Intel chip | **NZO-Store-Mac-Intel.zip** |
+| Linux (64-bit, x86) | **NZO-Store-Linux.zip** |
 
 Get them from the [**Releases page**](../../releases/latest) (look for *Assets* at the bottom of the latest release).
 
@@ -57,6 +58,12 @@ Get them from the [**Releases page**](../../releases/latest) (look for *Assets* 
 3. Open **System Settings ▸ Privacy & Security**, scroll all the way down and click **Open Anyway** next to *NZO Store*. Confirm with your password. You only do this once.
 
 > ⚠️ **Heads-up for Mac users:** the app isn't signed with a paid Apple Developer account (it costs about $99 a year), so macOS blocks it the first time. It's not a virus, we just haven't paid Apple. On older versions of macOS, right-click the app and choose **Open** instead.
+
+### Linux
+
+1. Download **NZO-Store-Linux.zip** and unzip it.
+2. Run `./install.sh` from that folder to add **NZO Store** to your applications menu (or just open the **NZO Store** file directly).
+3. The store opens in your web browser.
 
 The same steps are always available inside the app, under **Install guide**.
 
