@@ -42,7 +42,7 @@ Every submission goes through an automatic safety scan, and a person reads any s
 
 <p align="center"><img src="docs/images/c-inside.png" alt="A look inside the store" width="100%"></p>
 
-<p align="center"><img src="docs/images/c-index.png" alt="29 plugins to start" width="100%"></p>
+<p align="center"><img src="docs/images/c-index.png" alt="The first plugins" width="100%"></p>
 
 <details>
 <summary><b>📋 Every plugin, with what it does</b></summary>
@@ -64,9 +64,11 @@ Every submission goes through an automatic safety scan, and a person reads any s
 | **Glass Studio & Liquid Glass** | Effect + panel | Both glass panels with their shared rendering engine. | AE Glass and Glasser |
 | **Glowing Radiance** | Effect | Realistic HDR glow in linear light: hot core, long tail, dispersion, anamorphic stretch. | Deep Glow 2 |
 | **Heat Sense** | Effect | Thermal palettes, grain and thermometers. | Heatmap |
+| **Holo Foil** | Effect + panel | Iridescent holographic foil: colours that shift with relief and viewing angle, 10 looks, foil patterns, sheen and glitter. A panel links it to the layer's 3D rotation. | Holographic Foil |
 | **Lumen Rays** | Effect | Volumetric light rays from a point: sun through trees, beams bursting from a title or logo. 9 light sources, 12 gradients, looping shimmer, 18 blend modes. | Trapcode Shine |
 | **Mosh Pit** | Effect + panel | Datamosh algorithms and mosh markers. | Datamosh 2 |
 | **Motion Isolate** | Effect + panel | Isolates motion using a temporal rig. | Motion Extractor |
+| **Motion Studio** | Panel | The animation and layout toolbox in one-click buttons: anchors, align, easing, auto animations (overshoot, bounce, wiggle, orbit), text to letters, ready shapes, colours, comp formats. Inspired by Motion. Original NZO code, not affiliated. | Motion |
 | **N-Glitch** | Effect | Digital compression glitches and distortion. | Jlitch |
 | **Natural Typer** | Effect + panel | Natural text typing with adjustable timing. | WriteTyper |
 | **Nebula Gradients** | Effect | Animated nebula gradients and colour textures. | Cosmic |
@@ -104,7 +106,7 @@ Unzip **NZO-Store-Linux.zip** and run `./install.sh` to add it to your apps menu
 <details>
 <summary><b>🧩 Which Craft apps?</b></summary>
 
-The store has a shelf for each Craft app: **EffectCraft, FilmCraft, GridCraft, LightCraft, PdfCraft and PhotoCraft**. The first 29 plugins are for EffectCraft. As soon as someone publishes a plugin for another app, it shows up on that app's shelf for everyone, with nothing to reinstall.
+The store has a shelf for each Craft app: **EffectCraft, FilmCraft, GridCraft, LightCraft, PdfCraft and PhotoCraft**. The first plugins are all for EffectCraft. As soon as someone publishes a plugin for another app, it shows up on that app's shelf for everyone, with nothing to reinstall.
 
 The store never modifies the apps themselves. It only copies plugin files into each app's own plugin folders, and **Remove** deletes exactly what it installed.
 </details>
