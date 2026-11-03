@@ -1,40 +1,21 @@
-<p align="center"><img src="docs/images/hero.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
+<p align="center"><img src="docs/images/b-cover.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
 
 <p align="center">
-<a href="../../releases/latest"><img src="docs/images/dl-win.png" alt="Download for Windows" width="290"></a>
-<a href="../../releases/latest"><img src="docs/images/dl-mac.png" alt="Download for Mac" width="290"></a>
-<a href="../../releases/latest"><img src="docs/images/dl-lin.png" alt="Download for Linux" width="290"></a>
+<a href="../../releases/latest"><img src="docs/images/b-dl-win.png" alt="Download for Windows" width="230"></a>
+<a href="../../releases/latest"><img src="docs/images/b-dl-mac.png" alt="Download for Mac" width="230"></a>
+<a href="../../releases/latest"><img src="docs/images/b-dl-lin.png" alt="Download for Linux" width="230"></a>
 </p>
 
-<p align="center"><b>Free plugins for EffectCraft, one click away.</b><br>
-<sub>No account · no hidden folders · checked before install</sub><br><br>
-<a href="README.fr.md">🇫🇷 Lire en français</a></p>
+<p align="center"><a href="README.fr.md">🇫🇷 Lire en français</a></p>
 
-<br>
+<p align="center"><img src="docs/images/b-apps.png" alt="One store, six Craft apps" width="100%"></p>
 
-<p align="center"><img src="docs/images/shot-catalogue.png" alt="The catalogue" width="860"></p>
+<p align="center"><img src="docs/images/b-inside.png" alt="A look inside" width="100%"></p>
 
-<p align="center"><img src="docs/images/why.png" alt="Free, one click, checked, updates itself" width="100%"></p>
-
-<p align="center"><img src="docs/images/steps.png" alt="How it works: pick, install, create" width="100%"></p>
-
-## 🛍️ Take a look inside
-
-<table>
-<tr>
-<td width="50%"><img src="docs/images/shot-plugin.png" alt=""><br><b>Every plugin has its own page.</b> What it does, how to use it, version and fingerprint.</td>
-<td width="50%"><img src="docs/images/shot-update.png" alt=""><br><b>The app updates itself.</b> A banner appears when a new version is out: one click and it’s done.</td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/images/shot-table.png" alt=""><br><b>Grid or table.</b> Filter by installed, updates or not installed, and search by name.</td>
-<td width="50%"><img src="docs/images/shot-light.png" alt=""><br><b>Dark or light.</b> The store follows your system, in English or French.</td>
-</tr>
-</table>
-
-<p align="center"><img src="docs/images/wall.png" alt="The 29 plugins" width="100%"></p>
+<p align="center"><img src="docs/images/b-index.png" alt="All the plugins" width="100%"></p>
 
 <details>
-<summary><b>📋 The full list, with what each plugin does</b></summary>
+<summary><b>📋 Every plugin, with what it does</b></summary>
 
 | Plugin | Type | What it does | Inspired by |
 |---|---|---|---|
@@ -70,34 +51,7 @@
 
 </details>
 
-## 📤 Made a plugin? Put it on the shelves
-
-<p align="center"><img src="docs/images/shot-submit.png" alt="" width="760"></p>
-
-Press **Submit plugin** in the app and send a `.zip` (20 MB max). Your name appears as the creator on its page, with a **Community** badge. Every submission is checked, and a person approves it before it goes live.
-
-<details>
-<summary><b>What to put in the zip</b></summary>
-
-- Only `.wasm`, `.jsx`, `.ecpreset`, `.json`, `.png`, `.md` or `.txt` files.
-- An `icon.png` at the root (square, 300 KB max) for its picture.
-- Optional: a `store.json` for its own colours and page, and a `gallery/` folder with up to six PNG screenshots.
-
-```json
-{
-  "palette": ["#ff4d2e", "#ffb02e", "#fff3a1"],
-  "tagline": "See the world in thermal vision.",
-  "tagline_fr": "Vois le monde en vision thermique.",
-  "about": ["One or two short paragraphs about what it does."],
-  "features": [{"g": "flame", "t": "Thermal palettes", "d": "From white hot to iron-bow."}],
-  "steps": [{"t": "Apply the effect", "d": "Effect ▸ NZO ▸ Heat Sense."}]
-}
-```
-
-Feature icons (`g`) : `wave`, `grid`, `flame`, `sparkles`, `layers`, `sliders`, `film`, `type`, `scissors`, `cube`, `bolt`, `eye`, `palette`, `download`, `target`.
-</details>
-
-## 🧰 Help
+## Good to know
 
 <details>
 <summary><b>🪟 Windows says "Windows protected your PC"</b></summary>
@@ -118,22 +72,24 @@ Unzip **NZO-Store-Linux.zip** and run `./install.sh` to add it to your apps menu
 </details>
 
 <details>
-<summary><b>📁 Where do the plugins go?</b></summary>
+<summary><b>🧩 Which Craft apps?</b></summary>
 
-| System | Folder |
-|---|---|
-| Windows | `%APPDATA%\EffectCraft` |
-| macOS | `~/Library/Application Support/EffectCraft` |
-| Linux | `~/.config/effectcraft` |
+The store has a tab for each Craft app: **EffectCraft, FilmCraft, GridCraft, LightCraft, PdfCraft and PhotoCraft**. Today the 29 plugins are for EffectCraft. The other apps are open: as soon as a plugin is published for one of them, it shows up in its tab, without reinstalling anything.
 
-Effects go in `Plug-ins`, panels in `Scripts/ScriptUI Panels`. EffectCraft itself is never modified, and **Remove** deletes exactly what the store installed.
+The store never modifies the apps themselves. It only copies plugin files into each app’s own plugin folders, and **Remove** deletes exactly what it installed.
+</details>
+
+<details>
+<summary><b>📤 Share your own plugin</b></summary>
+
+Press **Submit plugin** in the app, pick the Craft app it is for, and send a `.zip` (20 MB max) with only `.wasm`, `.jsx`, `.ecpreset`, `.json`, `.png`, `.md` or `.txt` files. Add an `icon.png` (square, 300 KB max) and, if you like, a `store.json` and a `gallery/` folder for a nicer page. Your name is credited as the creator, with a **Community** badge. Every submission is checked, and a person approves it before it goes live.
 </details>
 
 <details>
 <summary><b>🔒 Is it safe?</b></summary>
 
 - Every download is checked against its SHA-256 fingerprint. If it doesn’t match, nothing is installed.
-- The app only copies files. It never runs a plugin and never changes EffectCraft.
+- The app only copies files. It never runs a plugin and never changes the Craft apps.
 - Community plugins go through quarantine: an automatic scan, then a person reads any script before it is published.
 - App updates come from this repository’s Releases and are checked the same way.
 </details>
@@ -141,10 +97,10 @@ Effects go in `Plug-ins`, panels in `Scripts/ScriptUI Panels`. EffectCraft itsel
 <details>
 <summary><b>❓ Is it free? Is it official?</b></summary>
 
-Free, yes: the app and every plugin (MIT licence). Official, no: it is an unofficial community project, not affiliated with ArtCraft or EffectCraft. The plugins are original NZO code inspired by well-known plugins, whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence.
+Free, yes: the app and every plugin (MIT licence). Official, no: it is an unofficial community project, not affiliated with ArtCraft. The plugins are original NZO code inspired by well-known plugins, whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence.
 </details>
 
 <br>
 
-<p align="center"><img src="docs/images/footer.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
+<p align="center"><img src="docs/images/b-footer.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
 
