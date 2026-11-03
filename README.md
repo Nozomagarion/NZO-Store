@@ -1,135 +1,40 @@
-<p align="center"><img src="docs/images/banner.png" alt="NZO Store" width="100%"></p>
-
-<h3 align="center">Free plugins for EffectCraft, one click away.</h3>
+<p align="center"><img src="docs/images/hero.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
 
 <p align="center">
-Browse a beautiful catalogue, press <b>Install</b>, restart EffectCraft. That's it.<br>
-<sub>Windows · Mac · Linux · no account · the app updates itself</sub>
+<a href="../../releases/latest"><img src="docs/images/dl-win.png" alt="Download for Windows" width="290"></a>
+<a href="../../releases/latest"><img src="docs/images/dl-mac.png" alt="Download for Mac" width="290"></a>
+<a href="../../releases/latest"><img src="docs/images/dl-lin.png" alt="Download for Linux" width="290"></a>
 </p>
 
-<p align="center">
-<a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Nozomagarion/NZO-Store?style=for-the-badge&label=Download&color=111111"></a>
-<img alt="Plugins" src="https://img.shields.io/badge/plugins-29-0a7563?style=for-the-badge">
-<img alt="Platforms" src="https://img.shields.io/badge/Windows_·_Mac_·_Linux-1659c4?style=for-the-badge">
-<img alt="Licence" src="https://img.shields.io/badge/licence-MIT-7a4be0?style=for-the-badge">
-</p>
+<p align="center"><b>Free plugins for EffectCraft, one click away.</b><br>
+<sub>No account · no hidden folders · checked before install</sub><br><br>
+<a href="README.fr.md">🇫🇷 Lire en français</a></p>
 
-<p align="center">
-<a href="../../releases/latest"><b>⬇ Download the latest version</b></a> · <a href="README.fr.md">🇫🇷 Lire en français</a>
-</p>
+<br>
 
-<p align="center"><img src="docs/media/catalogue.gif" alt="The NZO Store catalogue, dark and light" width="880"></p>
-<p align="center"><sub>The catalogue. Dark or light, the store follows your system.</sub></p>
+<p align="center"><img src="docs/images/shot-catalogue.png" alt="The catalogue" width="860"></p>
 
----
+<p align="center"><img src="docs/images/why.png" alt="Free, one click, checked, updates itself" width="100%"></p>
 
-## ✨ What is NZO Store?
+<p align="center"><img src="docs/images/steps.png" alt="How it works: pick, install, create" width="100%"></p>
 
-NZO Store is a small desktop app that gives **EffectCraft** its own plugin store, a bit like the add-on store in Blender. No hidden folders, no zip files to unpack by hand: open the store, pick a plugin, press **Install**.
+## 🛍️ Take a look inside
 
-| | |
-|---|---|
-| 🆓 **Free** | Every plugin in the store is free (MIT licence). The app too. |
-| 🛡️ **Safe** | Every download is checked against its SHA-256 fingerprint before anything is installed. |
-| 🧘 **Simple** | Windows, Mac and Linux. No account, no sign-up. |
-| 🤝 **Respectful** | It never modifies EffectCraft itself. It only copies plugin files into EffectCraft's own plugin folders. |
-| 🔄 **Self-updating** | Since 1.0.4, a banner tells you when a new version is out. One click and the app updates itself. |
+<table>
+<tr>
+<td width="50%"><img src="docs/images/shot-plugin.png" alt=""><br><b>Every plugin has its own page.</b> What it does, how to use it, version and fingerprint.</td>
+<td width="50%"><img src="docs/images/shot-update.png" alt=""><br><b>The app updates itself.</b> A banner appears when a new version is out: one click and it’s done.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/images/shot-table.png" alt=""><br><b>Grid or table.</b> Filter by installed, updates or not installed, and search by name.</td>
+<td width="50%"><img src="docs/images/shot-light.png" alt=""><br><b>Dark or light.</b> The store follows your system, in English or French.</td>
+</tr>
+</table>
 
----
-
-## ⚡ Install a plugin in 10 seconds
-
-<p align="center"><img src="docs/media/install.gif" alt="Search a plugin and install it" width="880"></p>
-
-1. **Search** or scroll to the plugin you want.
-2. Press **Install**. The store downloads it, checks its fingerprint and copies the files.
-3. **Restart EffectCraft.** Effects appear in the **Effect** menu, panels in **Window ▸ NZO**.
-
-> Already installed some plugins by hand? The store recognises them when the files are the same, and offers to replace them if yours are an older version.
-
----
-
-## 🎬 A tour of the app
-
-### Every plugin has its own page
-
-What it does, how to use it step by step, previews, version and fingerprint. Each plugin brings its own colours.
-
-<p align="center"><img src="docs/media/plugin-page.gif" alt="Opening a plugin page" width="880"></p>
-
-### Filters, search and a table view
-
-Filter by **Installed**, **Updates** or **Not installed**, sort by name or by date, or switch to the compact **Table** view.
-
-<p align="center"><img src="docs/media/table.gif" alt="Filters and table view" width="880"></p>
-
-### Updates, for plugins and for the app
-
-When a plugin has a new version, an **Update all** button appears. When the app itself has a new version, a banner shows up: **Update now** downloads it, checks its fingerprint, replaces the app and restarts it. You never need to download the app by hand again.
-
-<p align="center"><img src="docs/media/update.gif" alt="Update all plugins and update the app" width="880"></p>
-
-### English or French
-
-One click on **EN / FR** switches the whole store, plugin pages included.
-
-<p align="center"><img src="docs/media/language.gif" alt="Switching the store to French" width="880"></p>
-
----
-
-## ⬇️ Download and install the app
-
-| Your computer | File to download |
-|---|---|
-| 🪟 Windows | **NZO-Store-Windows.zip** |
-| 🍎 Mac with an Apple chip (M1, M2, M3, M4…) | **NZO-Store-Mac-Apple-Silicon.zip** |
-| 🍎 Older Mac with an Intel chip | **NZO-Store-Mac-Intel.zip** |
-| 🐧 Linux (64-bit, x86) | **NZO-Store-Linux.zip** |
-
-All files are on the [**Releases page**](../../releases/latest), under *Assets*.
-
-> Not sure which Mac you have? Apple menu ▸ **About This Mac**. *Apple M…* means Apple Silicon, *Intel* means Intel.
+<p align="center"><img src="docs/images/wall.png" alt="The 29 plugins" width="100%"></p>
 
 <details>
-<summary><b>🪟 Windows, step by step</b></summary>
-
-1. Download **NZO-Store-Windows.zip** and unzip it.
-2. Open **NZO Store.exe**.
-3. If Windows shows *"Windows protected your PC"*: click **More info**, then **Run anyway**.
-
-> Why this message? The app is new and not signed with a paid Microsoft certificate. It is safe, and Windows only asks once.
-</details>
-
-<details>
-<summary><b>🍎 Mac, step by step</b></summary>
-
-1. Download the right zip (see the table), open the **.dmg** and drag **NZO Store** into **Applications**.
-2. Open it. macOS will probably say it **can't be opened** or comes from an **unidentified developer**. Click **OK**.
-3. Open **System Settings ▸ Privacy & Security**, scroll all the way down and click **Open Anyway** next to *NZO Store*. Confirm with your password. You only do this once.
-
-> ⚠️ The app isn't signed with a paid Apple Developer account, so macOS blocks it the first time. It's not a virus, we just haven't paid Apple. On older versions of macOS, right-click the app and choose **Open** instead.
-</details>
-
-<details>
-<summary><b>🐧 Linux, step by step</b></summary>
-
-1. Download **NZO-Store-Linux.zip** and unzip it.
-2. Run `./install.sh` from that folder to add **NZO Store** to your applications menu (or just open the **NZO Store** file directly).
-3. The store opens in your web browser.
-</details>
-
-The same steps are always available inside the app, under **Install guide**.
-
----
-
-## 🧩 The plugins
-
-29 plugins today, and the list grows without reinstalling anything: the store fetches new ones on its own.
-
-Every plugin is **original NZO code**, inspired by a well-known plugin so you know what to expect. The store is not affiliated with any of them.
-
-<details>
-<summary><b>See the full list</b></summary>
+<summary><b>📋 The full list, with what each plugin does</b></summary>
 
 | Plugin | Type | What it does | Inspired by |
 |---|---|---|---|
@@ -165,58 +70,55 @@ Every plugin is **original NZO code**, inspired by a well-known plugin so you kn
 
 </details>
 
-<p align="center"><img src="docs/images/montage.png" alt="Some of the plugins" width="880"></p>
+## 📤 Made a plugin? Put it on the shelves
 
----
+<p align="center"><img src="docs/images/shot-submit.png" alt="" width="760"></p>
 
-## 📤 Submit your own plugin
-
-Made something for EffectCraft? Send it in with the **Submit plugin** button in the app. Your name is credited as the creator on the plugin page.
-
-<p align="center"><img src="docs/media/submit.gif" alt="The Submit plugin form and the install guide" width="880"></p>
-
-1. Put your files in a `.zip` (20 MB at most) containing only `.wasm`, `.jsx`, `.ecpreset`, `.json`, `.png`, `.md` or `.txt` files.
-2. Add an `icon.png` (square, up to 300 KB) at the root to give your plugin its picture.
-3. Optional but nice: add a `store.json` to give your plugin its own colours and a full page, and a `gallery/` folder with up to six PNG screenshots.
+Press **Submit plugin** in the app and send a `.zip` (20 MB max). Your name appears as the creator on its page, with a **Community** badge. Every submission is checked, and a person approves it before it goes live.
 
 <details>
-<summary><b>Example of <code>store.json</code></b></summary>
+<summary><b>What to put in the zip</b></summary>
+
+- Only `.wasm`, `.jsx`, `.ecpreset`, `.json`, `.png`, `.md` or `.txt` files.
+- An `icon.png` at the root (square, 300 KB max) for its picture.
+- Optional: a `store.json` for its own colours and page, and a `gallery/` folder with up to six PNG screenshots.
 
 ```json
 {
   "palette": ["#ff4d2e", "#ffb02e", "#fff3a1"],
   "tagline": "See the world in thermal vision.",
+  "tagline_fr": "Vois le monde en vision thermique.",
   "about": ["One or two short paragraphs about what it does."],
   "features": [{"g": "flame", "t": "Thermal palettes", "d": "From white hot to iron-bow."}],
   "steps": [{"t": "Apply the effect", "d": "Effect ▸ NZO ▸ Heat Sense."}]
 }
 ```
 
-Add `_fr` versions of the text fields (`tagline_fr`, `about_fr`…) for a French page. Feature icons (`g`): `wave`, `grid`, `flame`, `sparkles`, `layers`, `sliders`, `film`, `type`, `scissors`, `cube`, `bolt`, `eye`, `palette`, `download`, `target`.
+Feature icons (`g`) : `wave`, `grid`, `flame`, `sparkles`, `layers`, `sliders`, `film`, `type`, `scissors`, `cube`, `bolt`, `eye`, `palette`, `download`, `target`.
 </details>
 
-Nothing is published automatically. Every submission goes through the checks below and a person approves it.
+## 🧰 Help
 
-<p align="center"><img src="docs/images/pipe.png" alt="From submission to publication" width="880"></p>
+<details>
+<summary><b>🪟 Windows says "Windows protected your PC"</b></summary>
 
----
+Unzip **NZO-Store-Windows.zip**, open **NZO Store.exe**, then click **More info** and **Run anyway**. The app is not signed with a paid Microsoft certificate. Windows only asks once.
+</details>
 
-## 🔒 Security
+<details>
+<summary><b>🍎 Mac says the app can’t be opened</b></summary>
 
-- **SHA-256 on every download.** The app compares the fingerprint of each file with the one in the catalogue and refuses to install if they differ.
-- **The app only copies files** into EffectCraft's plugin folders. It never runs a plugin, and it never changes EffectCraft.
-- **Safe-by-design paths.** Files with tricky paths (`../`), links, wrong types or fake `.wasm` are refused. Archives that are too big are refused.
-- **Community plugins go through quarantine.** An automatic scan refuses obviously dangerous code, such as network access, running commands or hidden code. Anything with a `.jsx` script is always read by a person before it is published.
-- **The app updates itself safely too.** The new version is downloaded from this repository's Releases and its SHA-256 is checked before the app is replaced.
-- **Upload limits:** 5 per hour per person, 20 MB per zip.
+Take **Apple Silicon** for M1 to M4 Macs, **Intel** for older ones (Apple menu ▸ About This Mac). Drag the app into Applications and open it once. Then go to **System Settings ▸ Privacy & Security**, scroll down and click **Open Anyway**. You only do this once: the app is not signed with a paid Apple account.
+</details>
 
-Found a problem? Please open an issue on this repository.
+<details>
+<summary><b>🐧 Linux</b></summary>
 
----
+Unzip **NZO-Store-Linux.zip** and run `./install.sh` to add it to your apps menu. The store opens in your browser.
+</details>
 
-## 📁 Where do the plugins go?
-
-You never have to touch these folders, but here they are:
+<details>
+<summary><b>📁 Where do the plugins go?</b></summary>
 
 | System | Folder |
 |---|---|
@@ -224,53 +126,25 @@ You never have to touch these folders, but here they are:
 | macOS | `~/Library/Application Support/EffectCraft` |
 | Linux | `~/.config/effectcraft` |
 
-Effects (`.wasm`) go in `Plug-ins`, panels (`.jsx`) go in `Scripts/ScriptUI Panels`, and presets (`.ecpreset`) go in `Documents/EffectCraft/Presets`. In EffectCraft, **effects** appear in the **Effect** menu (look for the **NZO** entries) and **panels** in **Window ▸ NZO**.
-
----
-
-## ❓ FAQ
-
-<details>
-<summary><b>Is it really free?</b></summary>
-Yes. The app and all plugins in the store are free.
+Effects go in `Plug-ins`, panels in `Scripts/ScriptUI Panels`. EffectCraft itself is never modified, and **Remove** deletes exactly what the store installed.
 </details>
 
 <details>
-<summary><b>Is it official?</b></summary>
-No. NZO Store is an unofficial, community project. It is not affiliated with EffectCraft or ArtCraft.
+<summary><b>🔒 Is it safe?</b></summary>
+
+- Every download is checked against its SHA-256 fingerprint. If it doesn’t match, nothing is installed.
+- The app only copies files. It never runs a plugin and never changes EffectCraft.
+- Community plugins go through quarantine: an automatic scan, then a person reads any script before it is published.
+- App updates come from this repository’s Releases and are checked the same way.
 </details>
 
 <details>
-<summary><b>Will it break my EffectCraft?</b></summary>
-No. It only adds files to the same plugin folders you would use by hand, and <b>Remove</b> deletes exactly what the store installed.
+<summary><b>❓ Is it free? Is it official?</b></summary>
+
+Free, yes: the app and every plugin (MIT licence). Official, no: it is an unofficial community project, not affiliated with ArtCraft or EffectCraft. The plugins are original NZO code inspired by well-known plugins, whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence.
 </details>
 
-<details>
-<summary><b>The store says "built-in catalogue" or offline.</b></summary>
-The built-in plugins can still be installed without a connection. The server is only needed for newer versions and community plugins.
-</details>
+<br>
 
-<details>
-<summary><b>Mac says the app is damaged or can't be opened.</b></summary>
-Follow the <b>Open Anyway</b> steps above. It happens because the app is not signed with a paid Apple account.
-</details>
+<p align="center"><img src="docs/images/footer.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
 
-<details>
-<summary><b>I already installed some plugins myself.</b></summary>
-The store recognises them automatically when the files are the same.
-</details>
-
-<details>
-<summary><b>Which EffectCraft version do I need?</b></summary>
-Plugins are built for EffectCraft's plugin system (WASM effects and ScriptUI panels). If a plugin page lists extra requirements, such as a model to enable in EffectCraft's settings, follow them.
-</details>
-
----
-
-## 💛 Credits and licence
-
-Plugins in the store are released under the MIT licence (each zip contains its `LICENSE.txt`).
-
-NZO Store is an unofficial community project and is not affiliated with EffectCraft or ArtCraft. The plugins are original NZO code, inspired by well-known plugins whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence. Fonts: Inter, Archivo and Geist Mono (SIL Open Font License).
-
-<p align="center"><sub>Made with care by <b>Nozomagarion</b>.</sub></p>
