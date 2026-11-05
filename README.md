@@ -49,7 +49,7 @@ Every submission goes through an automatic safety scan, and a person reads any s
 
 | Plugin | Type | What it does | Inspired by |
 |---|---|---|---|
-| **3D Elements** | Panel | 3D text, models, materials, lighting, camera moves and object arrays on EffectCraft’s native GPU 3D renderer. Ready-made scenes included. | Element 3D |
+| **3D Elements** | Effect + panel | A full 3D scene on one layer: models, extruded text, particle replicators in 5 groups and animation between groups, on EffectCraft’s native GPU 3D renderer. | Element 3D |
 | **AI Color Match** | Effect + panel | Matches the colors of a shot to a reference image. | AI Color Match |
 | **Analog Broadcast** | Effect | Analog TV signal: chroma errors, limited bandwidth, ghost echoes, RF snow, hum bars, sync loss, screen mask, 30 looks in one click. | Analog |
 | **Anonymizer** | Panel | Hides every face in a clip with a fake AI face, a blur or a pixelation, tracked and stackable. Needs the free local engine from [NZO-Anonymizer](https://github.com/Nozomagarion/NZO-Anonymizer/releases/latest) | Anonymizer |
@@ -57,12 +57,12 @@ Every submission goes through an automatic safety scan, and a person reads any s
 | **ASCII Matrix FX** | Effect | ASCII rendering with 97 character sets (braille, katakana, runes, blocks…), 53 presets and block tearing. | RXXR |
 | **Audio Keys** | Effect + panel | Audio spectrum and audio-driven keyframes. Apply to a solid using the panel. | Trapcode Sound Keys |
 | **Auto Roto** | Panel | Subject cutouts using EffectCraft's Object Matte. Requires the MobileSAM model in EffectCraft settings. | — |
-| **Cinema Suite** | Effect | Eleven cinema effects: film stock, warps, lens defocus, kaleidoscopes, halftone, motion blurs, sharpen and clarity, sketch and paint looks, relief and chrome, procedural textures, stained glass and mosaics. | Sapphire |
+| **Cinema Suite** | Effect + panel | Twenty cinema effects with 30+ presets each, plus a one-click panel: film stock, colour looks, lens defocus, blurs, sketch and paint, light leaks, lightning, aurora, patterns, textures and transitions. | Sapphire |
 | **CorridorKey 2** | Effect + panel | Corridor Digital's CorridorKey 2.0 AI green-screen keyer, inside EffectCraft. Needs the free engine installer, Windows and an NVIDIA GPU. | CorridorKey 2.0 (Corridor Digital) |
 | **Datamosh FX** | Effect + panel | Frame-by-frame datamosh with its control panel. | Motion Mosh |
 | **Decode Text** | Panel | Text that decodes itself: random characters lock onto the real text, 33 styles, 28 clear settings. | Hacker Text |
 | **Galactic Pixels** | Effect + panel | Temporal pixel effects, panel and block-map helper included. | Pixel Galactic |
-| **GIF Shot** | Effect + panel | Export a composition or a batch through EffectCraft's render queue. | GifGun 2 |
+| **GIF Shot** | Panel | Export a composition or a batch through EffectCraft's render queue. | GifGun 2 |
 | **Glass Studio & Liquid Glass** | Effect + panel | Both glass panels with their shared rendering engine. | AE Glass and Glasser |
 | **Glowing Radiance** | Effect | Realistic HDR glow in linear light: hot core, long tail, dispersion, anamorphic stretch. | Deep Glow 2 |
 | **Glyph Mapper** | Effect + panel | Rebuilds the image from symbols picked by luminance: 11 symbol sets, 42 presets, or your own 5 glyphs (any character, logo or image). | Symbol Mapper |
@@ -72,7 +72,7 @@ Every submission goes through an automatic safety scan, and a person reads any s
 | **HUD Forge** | Effect | Procedural animated HUD: 42 elements (rings, radar, reticles, gauges, readouts), 46 presets, 16 colour looks. | HUD Components |
 | **Lumen Rays** | Effect | Volumetric light rays from a point: sun through trees, beams bursting from a title or logo. 9 light sources, 12 gradients, looping shimmer, 18 blend modes. | Trapcode Shine |
 | **Motion Isolate** | Effect + panel | Isolates motion using a temporal rig. | Motion Extractor |
-| **Motion Studio** | Panel | The animation and layout toolbox in one-click buttons: anchors, align, easing, auto animations (overshoot, bounce, wiggle, orbit), text to letters, ready shapes, colours, comp formats. Inspired by Motion. Original NZO code, not affiliated. | Motion |
+| **Motion Studio** | Panel | The animation toolbox in one drawn panel: easing graph with draggable handles, one-click anchor widget, favourite tool tiles, a library of 25 curves, search, colour page, 91 tools. | Motion |
 | **N-Glitch** | Effect | Digital compression glitches and distortion. | Jlitch |
 | **Natural Typer** | Effect + panel | Natural text typing with adjustable timing. | WriteTyper |
 | **Nebula Gradients** | Effect | Animated nebula gradients and colour textures. | Cosmic |
