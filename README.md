@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/c-cover.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
+<p align="center"><img src="docs/images/c-cover.png" alt="NZO Store ArtCraft, the free plugin store for ArtCraft apps by NZO" width="100%"></p>
 
 <p align="center">
 <a href="../../releases/latest"><img src="docs/images/c-dl-win.png" alt="Download for Windows" width="230"></a>
@@ -6,7 +6,7 @@
 <a href="../../releases/latest"><img src="docs/images/c-dl-lin.png" alt="Download for Linux" width="230"></a>
 </p>
 
-<p align="center"><b>Made by everyone, shared with everyone.</b><br>Upload your plugins, install everyone else's. Free, in one click, for every Craft app.</p>
+<p align="center"><b>NZO Store ArtCraft</b> · the free plugin store for ArtCraft apps<br><b>Made by everyone, shared with everyone.</b><br>Upload your plugins, install everyone else's. Free, in one click, for every Craft app.</p>
 
 <p align="center"><img src="docs/images/c-apps.png" alt="Every Craft app has its shelf: EffectCraft, FilmCraft, GridCraft, LightCraft, PdfCraft, PhotoCraft" width="100%"></p>
 
@@ -133,10 +133,10 @@ The store never modifies the apps themselves. It only copies plugin files into e
 <details>
 <summary><b>❓ Is it free? Is it official?</b></summary>
 
-Free, yes: the app and every plugin. Official, no: it is an unofficial community project, not affiliated with ArtCraft. The NZO plugins are original code inspired by well-known plugins, whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence.
+Free, yes: the app and every plugin. Official, no: NZO Store ArtCraft is an unofficial community project, not affiliated with ArtCraft. The NZO plugins are original code inspired by well-known plugins, whose names belong to their owners. CorridorKey 2 is built on CorridorKey 2.0 by Corridor Digital, under its licence.
 </details>
 
 <br>
 
-<p align="center"><img src="docs/images/c-footer.png" alt="ArtCraft Free Plugin Store by NZO" width="100%"></p>
+<p align="center"><img src="docs/images/c-footer.png" alt="NZO Store ArtCraft, the free plugin store for ArtCraft apps by NZO" width="100%"></p>
 
